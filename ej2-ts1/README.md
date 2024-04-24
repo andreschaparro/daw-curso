@@ -8,7 +8,7 @@ Instalar:
 
 - **https://nodejs.org/en** ultima version _LTS_.
 
-Luego, en una _terminal powersheel_ de _VCS_ ejecutar:
+Luego, en una _terminal cmd_ de _VCS_ ejecutar:
 
 1. _npm install -g typescript_.
 2. _npm install http-server -g_.
@@ -45,8 +45,6 @@ Luego, en una _terminal powersheel_ de _VCS_ ejecutar:
 1. Abrir una _terminal powersheel_ en _VCS_ en el directorio del proyecto.
 2. Ejectuar _cd src_.
 3. Ejectuar _tsc -watch_.
-
-**NOTA: Si tira un error, ir al directorio donde lo marca y borrar tsc.ps1**
 
 # Prueba de la web app con un servidor estatico
 
