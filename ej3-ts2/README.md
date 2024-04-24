@@ -1,30 +1,30 @@
-# Ejemplo 3: Clases en typescript
+# Ejemplo 3: Clases y metodos en typescript, y propiedades y metodos utilizando DOM
 
 ## Introduccion
 
-Crear una clase llamada *Main* con un metodo llamado *main*.
+Crear una clase llamada _Main_ con un metodo llamado _main_.
 
-Crear una instancia de la clase *Main* y llamar al metodo *main*.
+Crear una instancia de la clase _Main_ y llamar al metodo _main_.
 
-El metodo *main* debe hacer el _console.log("Hola Mundo")_.
+El metodo _main_ debe hacer el _console.log("Hola Mundo")_.
 
-## DOM
+## Introduccion DOM
 
-O modelo de objetos del navegador, nos sirve para acceder a cualquiera de los componentes de la pagina.
+DOM o modelo de objetos del navegador, nos sirve para acceder a cualquiera de los componentes de la pagina.
 
-Todos los objetos comienzan con un objeto *window*. Ofrece metodos y propiedades para controlar la ventana del navegador.
+Todos los objetos comienzan con un objeto _window_. Ofrece metodos y propiedades para controlar la ventana del navegador.
 
-### Propiedades
+### Propiedades DOM
 
-Por ejemplo, para acceder a la propiedad *document* hacemos *window.document* que contiene la pagina web que se esta mostrando.
+Por ejemplo, para acceder a la propiedad _document_ hacemos _window.document_ que contiene la pagina web que se esta mostrando.
 
-Por otro lado, *document* tiene propiedades que son *arrays*. Como por ejemplo, un *array* con todas las imagenes de la pagina.
+Por otro lado, _document_ tiene propiedades que son _arrays_. Como por ejemplo, un _array_ con todas las imagenes de la pagina.
 
-Si en el *html* le asinamos un *name* a un componente de la pagina, podemos acceder al mismo de 2 formas:
+Si en el _html_ le asinamos un _name_ a un componente de la pagina, podemos acceder al mismo de 2 formas:
 
-- *document.mi_form*.
-- *document.form[x]*. Donde x es un numero entero.
+- _document.mi_form_.
+- _document.form[x]_. Donde x es un numero entero.
 
-### Metodos
+### Metodos DOM
 
-- *onload*: se desata cuando la pagina termino de cargarse.
+- _onload_: se desata cuando la pagina termino de cargarse.

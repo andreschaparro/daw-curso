@@ -1,4 +1,4 @@
-# Ejemplo 2: Typescript basico
+# Ejemplo 2: Introduccion a Typescript, el proceso de transpilacion, y creacion de un servidor estatico
 
 ## Introduccion
 
@@ -34,7 +34,9 @@ Luego, en una _terminal cmd_ de _VCS_ ejecutar:
 
    }
 
-5. En _index.html_ agregar incluir _js/main.js_ luego de _js/materialize.min.js_.
+5. En _index.html_ incluir _js/main.js_ luego de _js/materialize.min.js_.
+
+**NOTA: utilizamos ES5 porque nos asegura la mayor compatibilidad con los browsers.**
 
 # Programacion en TS
 

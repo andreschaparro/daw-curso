@@ -1,65 +1,68 @@
-# Ejemplo 4: Clases en typescript
+# Ejemplo 4: Atributos privados, metodos setter y getter, y Arrays en typescript
 
 ## Atributos privados
 
-Definir clase *User* con los atributos privados:
+Definir clase _User_ con los atributos privados:
 
-- *_id numerico*.
-- *_name texto*.
-- *_mail texto*.
-- *isLogged booleano*.
+- _\_id numerico_.
+- _\_name texto_.
+- _\_mail texto_.
+- _isLogged booleano_.
 
-**NOTA: a los atributos privados se les antepone _ al nombre para saber rapidamente si son privados o no al declararlos.**
+Para ello, anteponer la palabra reservada _private_.
 
-Los atributos privados no pueden ser accedidos directamente mediante el operador *.*.
+**NOTA: a los atributos privados se les antepone \_ en su nombre para saber visualmente si son privados.**
+
+**NOTA: los atributos y metodos privados solo se pueden acceder desde dentro de la clase.**
 
 ## Constructor
 
-Definir el constructor de la clase *User* explicitamente. Este metodo se ejecutara al hacer el *new*.
+Definir el constructor de la clase _User_ explicitamente. Este metodo se ejecutara al hacer el _new_.
 
 Debe recibir:
 
-- *id numerico*.
-- *name texto*.
-- *mail texto*.
+- _id numerico_.
+- _name texto_.
+- _mail texto_.
 
-Luego, deben inicializarse los atributos privados de la instancia de clase con los valores pasados.
+Luego, deben inicializarse los atributos privados del objeto (instancia de la clase) con los valores recibidos.
 
-La forma de referirse a la instancia de *User*, dentro de la propia clase, es con la palabra reservada *this*.
+La forma de referirse al objeto de _User_, dentro de la propia clase, es con la palabra reservada _this_.
 
-El atributos *isLogged* debe inicializarse siempre en *false*.
+El atributos _isLogged_ debe inicializarse en _false_.
 
 ## Metodos setter
 
 Se utilizan para modificar el valor de los atributos privados de una clase.
 
-La sintaxis del metodo es: *set MiembroPrivado(MiembroPrivado:tipo)*.
+La sintaxis del metodo es: _set MiembroPrivado(MiembroPrivado:tipo)_.
 
-Como vamos a modificar los valores de una instancia, recordar utilizar *this*.
+Como vamos a modificar los valores de un objeto hay que utilizar _this_.
 
-Una vez hecho esto, podremos utilizar el operador *.* para modificar al atributos privado pero a traves de su *setter*.
+Una vez hecho esto, podremos utilizar el operador _._ para modificar al atributos privado pero a traves de su _setter_.
 
 ## Metodos getter
 
 Se utilizar para leer el valor de los atributos privados de una clase.
 
-La sintaxis del metodo es: *get MiembroPrivado():tipo*.
+La sintaxis del metodo es: _get MiembroPrivado():tipo_.
 
-Como vamos a leer los valores de una instancia, recordar utilizar *this*.
+Como vamos a leer los valores de un objeto, hay que utilizar _this_.
 
-Una vez hecho esto, podremos utilizar el operador *.* para acceder al atributos privado pero a traves de su *getter*.
+Una vez hecho esto, podremos utilizar el operador _._ para acceder al atributos privado pero a traves de su _getter_.
 
 ## Otros metodos
 
-Crear un metodo llamado *printInfo* que imprima todos los atributos salvo el *id*.
+Crear un metodo llamado _printInfo_ que imprima todos los atributos salvo el _id_.
 
-Los metodos por defecto son publicos, es decir que se pueden acceder con el operador *.*.
+Los atributos y metodos por defecto son publicos. Y del mismo modo que con los atributos, los metodos podrian declararse como privados.
 
-Pero podrian declararse como privados, del mismo modo que los atributos. Para, ser mas explicitos podemos agregar la palabra *public* delante de los metodos publicos.
+Para darle mas legibilidad al codigo, se suele agregar _public_ delante de los metodos publicos.
 
-Utilizar los *getter* y *setter* para acceder a los miembros privados.
+Utilizar los _getter_ y _setter_ para acceder a los miembros privados dentro de _printInfo_.
 
 ## Modificaciones para probar la clase User
 
-En la clase *Main*, en el método *main* definir un *array* de 3 objetos *User*. Luego iterar el array 
-y ejecutar el método *printInfo()* de cada objeto.
+En la clase _Main_, en el método _main_ definir un _array_ de 3 objetos _User_.
+
+Luego iterar el array y ejecutar el método _printInfo()_ de cada objeto.
