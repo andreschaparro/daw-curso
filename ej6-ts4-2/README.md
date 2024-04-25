@@ -1,4 +1,4 @@
-# Ejemplo 6: Repaso de modificacion del HTML desde typescript, metodo maps para iterar Arrays, y otra forma de armar strings
+# Ejemplo 6: Repaso de modificacion del HTML desde typescript, metodo maps para iterar Arrays, y otra forma de concatenar strings
 
 ## Introduccion
 
@@ -20,7 +20,7 @@ Agregar incluir _js/User.js_ en *index.html*.
 
 El metodo *map* de un *Array* nos permite definir una funcion que se ejecutara para cada elemento del mismo, y que sera declarada utilizando el operador *Fat Arrow*.
 
-## Alternativa al operador + para armar un string
+## Alternativa al operador + para contatenar strings
 
 La forma con *${}*: 
 
@@ -30,4 +30,4 @@ Es equivalente a la siguiente con el operador *+*:
 
     "<li>" + users[i].name + " " + users[i].email + "</li>"
 
-**NOTA: la forma con ${} requiere el uso de `` y no de "".** 
+**NOTA: la forma con ${} requiere el uso de `` y no de "".**
