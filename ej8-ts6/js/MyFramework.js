@@ -3,8 +3,7 @@ var MyFramework = /** @class */ (function () {
     }
     MyFramework.prototype.getElementById = function (id) {
         /**
-         * HTMLElement es un tipo de objeto que representa en
-         * typestript la contracara de un componente html.
+         * HTMLElement es del tipo objeto no primitivo.
          */
         var el;
         el = document.getElementById(id);

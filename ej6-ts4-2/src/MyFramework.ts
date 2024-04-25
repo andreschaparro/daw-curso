@@ -1,7 +1,8 @@
 class MyFramework {
   getElementById(id: string): HTMLElement {
     /**
-     * HTMLElement es del tipo objeto no primitivo.
+     * HTMLElement es un tipo de objeto que representa en
+     * typestript la contracara de un componente html.
      */
     let el: HTMLElement;
     el = document.getElementById(id);
