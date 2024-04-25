@@ -1,5 +1,7 @@
 # Ejemplo 9: Ampliacion de nuestro framework para encontrar ante el disparo de un evento que HTMLElement lo produjo.
 
+## Introduccion
+
 Modificamos la clase *MyFramework* agregando el metodo *getElementByEvent(evt:Event): HTMLElement*.
 
 Ver comentarios en el codigo.

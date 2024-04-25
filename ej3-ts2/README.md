@@ -14,7 +14,7 @@ DOM o modelo de objetos del navegador, nos sirve para acceder a cualquiera de lo
 
 Todos los objetos comienzan con un objeto _window_. Ofrece metodos y propiedades para controlar la ventana del navegador.
 
-### Propiedades DOM
+## Propiedades DOM
 
 Por ejemplo, para acceder a la propiedad _document_ hacemos _window.document_ que contiene la pagina web que se esta mostrando.
 
@@ -25,6 +25,6 @@ Si en el _html_ le asinamos un _name_ a un componente de la pagina, podemos acce
 - _document.mi_form_.
 - _document.form[x]_. Donde x es un numero entero.
 
-### Metodos DOM
+## Metodos DOM
 
 - _onload_: se desata cuando la pagina termino de cargarse.

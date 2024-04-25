@@ -38,17 +38,17 @@ Luego, en una _terminal cmd_ de _VCS_ ejecutar:
 
 **NOTA: utilizamos ES5 porque nos asegura la mayor compatibilidad con los browsers.**
 
-# Programacion en TS
+## Programacion en TS
 
 1. Dentro de _main.ts_ agregar _console.log("Hola Mundo")_.
 
-# Proceso de transpilacion de TS a JS
+## Proceso de transpilacion de TS a JS
 
 1. Abrir una _terminal powersheel_ en _VCS_ en el directorio del proyecto.
 2. Ejectuar _cd src_.
 3. Ejectuar _tsc -watch_.
 
-# Prueba de la web app con un servidor estatico
+## Prueba de la web app con un servidor estatico
 
 1. Ejecutar _cd .._ para volver al directorio del proyecto.
 2. Ejecutar _http-server . -c-1_.
