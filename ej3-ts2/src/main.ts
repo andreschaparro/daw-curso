@@ -11,6 +11,7 @@ class Main {
  * Esta nueva forma es del tipo () => que
  * reemplaza a la forma utilizando function y que
  * no recibe argumentos ni devuelve nada.
+ * El operador => se llama Fat Arrow.
  */
 window.onload = () => {
   /**

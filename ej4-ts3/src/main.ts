@@ -9,7 +9,7 @@ class User {
   /**
    * Constructor
    */
-  constructor(id: number, name: string, mail: string) {
+  constructor(id: number, mail: string, name: string) {
     this._id = id;
     this._name = name;
     this._mail = mail;

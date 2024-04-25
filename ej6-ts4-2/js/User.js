@@ -67,32 +67,3 @@ var User = /** @class */ (function () {
     };
     return User;
 }());
-var Main = /** @class */ (function () {
-    function Main() {
-    }
-    Main.prototype.main = function () {
-        console.log("Hola mundo");
-        /**
-         * Crear un Array que almacenara objetos del tipo User.
-         */
-        var usuarios;
-        usuarios = new Array();
-        /**
-         * Con push agregamos un objeto User al Array
-         */
-        usuarios.push(new User(1, "juan@juan.com", "Juan"));
-        usuarios.push(new User(2, "pepe@juan.com", "Pepe"));
-        usuarios.push(new User(3, "carlos@juan.com", "Carlos"));
-        /**
-         * Con el bucle for iteramos el array
-         */
-        for (var i in usuarios) {
-            usuarios[i].printInfo();
-        }
-    };
-    return Main;
-}());
-window.onload = function () {
-    var m = new Main();
-    m.main();
-};

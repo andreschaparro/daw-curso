@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Smart Home</title>
+    <!--Import materialize.css-->
+    <link rel="stylesheet" href="css/materialize.min.css">
+</head>
+
+<body>
+    <!--Header del sitio utlizando el componente Navbar-->
+    <nav class="light-blue darken-4">
+        <div class="nav-wrappers">
+            <a href="#" class="brand-logo right">Smart Home</a>
+            <ul id="nav-mobile" class="left hide-on-med-and-down">
+                <!--Hipervinculos a otras pantallas-->
+                <li class="active"><a href="#">Dispositivos</a></li>
+                <li><a href="#">Configuracion</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!--Agregado del boton-->
+    <div class="container">
+        <a id="boton" class="waves-effect waves-light btn"></a>
+    </div>
+    <!--Agregado del ul-->
+    <div class="container">
+        <ul id="listaUsuarios"></ul>
+    </div>
+    <!--Uso de collections para actuadores on/off-->
+    <div class="container">
+        <div class="row s12">
+            <h4>Dispositivos</h4>
+        </div>
+        <div class="row s12">
+            <ul class="collection">
+                <li class="collection-item avatar">
+                    <img src="images/lightbulb.png" alt="" class="circle">
+                    <span class="title">Lampara 1</span>
+                    <p>Luz living</p>
+                    <!--Uso de collections para actuadores on/off-->
+                    <div class="switch secondary-content">
+                        <label>
+                            Off
+                            <input type="checkbox">
+                            <span class="lever"></span>
+                            On
+                        </label>
+                    </div>
+                </li>
+                <li class="collection-item avatar">
+                    <img src="images/lightbulb.png" alt="" class="circle">
+                    <span class="title">Lampara 2</span>
+                    <p>Luz cocina</p>>
+                    <div class="switch secondary-content">
+                        <label>
+                            Off
+                            <input type="checkbox">
+                            <span class="lever"></span>
+                            On
+                        </label>
+                    </div>
+                </li>
+                <li class="collection-item avatar">
+                    <img src="images/lightbulb.png" alt="" class="circle">
+                    <span class="title">Lampara 3</span>
+                    <p>Luz habitacion</p>
+                    <div class="switch secondary-content">
+                        <label>
+                            Off
+                            <input type="checkbox">
+                            <span class="lever"></span>
+                            On
+                        </label>
+                    </div>
+                </li>
+                <li class="collection-item avatar">
+                    <img src="images/lightbulb.png" alt="" class="circle">
+                    <span class="title">Lampara 4</span>
+                    <p>Luz living</p>
+                    <div class="switch secondary-content">
+                        <label>
+                            Off
+                            <input type="checkbox">
+                            <span class="lever"></span>
+                            On
+                        </label>
+                    </div>
+                </li>
+                <li class="collection-item avatar">
+                    <img src="images/window.png" alt="" class="circle">
+                    <span class="title">Persiana habitacion</span>
+                    <p>Frente a la cama</p>
+                    <div class="switch secondary-content">
+                        <label>
+                            Off
+                            <input type="checkbox">
+                            <span class="lever"></span>
+                            On
+                        </label>
+                    </div>
+                </li>
+                <li class="collection-item avatar">
+                    <img src="images/lightbulb.png" alt="" class="circle">
+                    <span class="title">Lampara 5</span>
+                    <p>Luz baño</p>
+                    <div class="switch secondary-content">
+                        <label>
+                            Off
+                            <input type="checkbox">
+                            <span class="lever"></span>
+                            On
+                        </label>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!--Footer del sitio utlizando el componente Footer-->
+    <footer class="page-footer light-blue darken-4">
+        <div class="container">
+            <!--Un grid tiene 12 columnas sin importar el tamaño del browser.-->
+            <div class="row">
+                <!--sxx indica cuanto espacio ocupa la columna con xx de 1 a 12 en pantallas pequeñas como el celular.-->
+                <!--lXX indica cuanto espacio ocupa la columna en una pantalla grande como la de una PC.-->
+                <!--Asi, s12 provoca que una columna deba ocupar todo el ancho una pantalla chica. -->
+                <!--por lo que, la siguiente columna debara bajar de linea forzadamente.-->
+                <!--En cambio, una columna mide l6 y el otro mide l4, da 10 de ancho, que es menor que 12.-->
+                <!--por lo que, ambas columnas entran en una linea.-->
+                <div class="col l6 s12">
+                    <h5 class="white-text">FIUBA</h5>
+                    <p class="grey-text text-lighten-4">Especializacion IoT - Gestion de Datos y Aplicaciones</p>
+                </div>
+                <!--Un offset de l2 indica que debe despazarse el contenido 2 columnas hacia la derecha.-->
+                <!--Por lo que el contenido de ancho 4 debera situarse en la columna 3 en una pantalla grande.-->
+                <div class="col l4 offset-l2 s12">
+                    <h5 class="white-text">Desarrollo de Aplicacion Web</h5>
+                    <ul>
+                        <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                2024
+                <!--<a class="grey-text text-lighten-4 right" href="#!">More Links</a>-->
+            </div>
+        </div>
+    </footer>
+    <!--JavaScript at end of body for optimized loading-->
+    <script src="js/materialize.min.js"></script>
+    <script src="js/User.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/MyFramework.js"></script>
+</body>
+
+</html>
