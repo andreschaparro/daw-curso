@@ -1,4 +1,4 @@
-# Ejemplo 7: Interfaces y la palabra reservada implements
+# Ejemplo 8: Interfaces y la palabra reservada implements
 
 ## Introduccion
 
