@@ -1,4 +1,4 @@
-# Ejemplo 7: Interfaces y la palabra reservada implements
+# Ejemplo 8: Interfaces y la palabra reservada implements
 
 ## Introduccion
 
@@ -16,4 +16,4 @@ En este caso, nos dira que debemos implementar el metodo *handleEvent(evt: Event
 
 Si analizamos *this*, vemos que no hay cambios respecto del ejemplo 7.
 
-![que_es_this](/ej8-ts6/que_es_this.png)
+![que_es_this](/ej8-ts/que_es_this.png)
