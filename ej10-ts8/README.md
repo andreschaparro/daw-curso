@@ -47,6 +47,6 @@ Este ejemplo, es muy importarte porque:
 
 En si, es el ejemplo mas basico de interaccion con un servidor.
 
-## Material adicional
+## Material complementario:
 
 https://www.w3schools.com/js/js_ajax_intro.asp
