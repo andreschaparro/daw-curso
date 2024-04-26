@@ -1,15 +1,29 @@
-// Clase Main.
+// Clase Main
 class Main {
-  // Metodo que solo imprime un mensaje y no recibe argumentos.
-  main(): void {
-    console.log("Hola mundo desde el metodo main del objeto");
+  // atributo publico inicializado
+  x: number = 0;
+  // atributo publico sin inicializar
+  y: number;
+  // atributo privado
+  private _z: number = 0;
+  // metodo publico
+  incrementar(n: number): void {
+    this.x += n;
+    console.log("incrementar: " + this.x);
+    //llamada al metodo privado
+    this._privIncrementar(n);
+    console.log("privIncrementar: " + this._z);
+  }
+  // metodo privado
+  private _privIncrementar(n: number): void {
+    this._z += n;
   }
 }
 
-// Ejemplo de uso de DOM.
+// Uso de DOM
 window.onload = () => {
-  // Declaracion de un objeto del tipo Main.
+  // Creacion de un objeto de la clase Main
   let m: Main = new Main();
-  // Invocamos el metodo main de nuestro objeto.
-  m.main();
+  // Llamada la metodo publico
+  m.incrementar(3);
 };

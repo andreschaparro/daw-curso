@@ -1,23 +1,18 @@
+// Clase User
 var User = /** @class */ (function () {
-    /**
-     * Constructor
-     */
-    function User(id, mail, name) {
+    // Metodo contructor
+    function User(id, name, mail) {
         this._id = id;
         this._name = name;
         this._mail = mail;
         this._isLogged = false;
     }
     Object.defineProperty(User.prototype, "id", {
-        /**
-         * Metodos getter
-         */
+        // Metodos getter
         get: function () {
             return this._id;
         },
-        /**
-         * Metodos setter
-         */
+        // Metodos setter
         set: function (id) {
             this._id = id;
         },
@@ -54,38 +49,30 @@ var User = /** @class */ (function () {
         enumerable: false,
         configurable: true
     });
-    /**
-     * Otros metodos
-     */
     User.prototype.printInfo = function () {
+        // Uso de los getter
         console.log("Nombre: " +
             this.name +
-            " email: " +
+            " mail: " +
             this.mail +
             " logged: " +
             this.isLogged);
     };
     return User;
 }());
+// Clase Main
 var Main = /** @class */ (function () {
     function Main() {
     }
     Main.prototype.main = function () {
-        console.log("Hola mundo");
-        /**
-         * Crear un Array que almacenara objetos del tipo User.
-         */
+        // Creacion de un array que alamacenara objetos del tipo User
         var usuarios;
         usuarios = new Array();
-        /**
-         * Con push agregamos un objeto User al Array
-         */
-        usuarios.push(new User(1, "juan@juan.com", "Juan"));
-        usuarios.push(new User(2, "pepe@juan.com", "Pepe"));
-        usuarios.push(new User(3, "carlos@juan.com", "Carlos"));
-        /**
-         * Con el bucle for iteramos el array
-         */
+        // Carga de objetos del tipo User al array
+        usuarios.push(new User(1, "Juan", "juan@juan.com"));
+        usuarios.push(new User(2, "Pepe", "pepe@juan.com"));
+        usuarios.push(new User(3, "Carlos", "carlos@juan.com"));
+        // Recorriendo todos los objetos del array con for
         for (var i in usuarios) {
             usuarios[i].printInfo();
         }

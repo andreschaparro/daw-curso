@@ -7,6 +7,7 @@ Los ejecicios del 1 al 15 corresponden a:
 1. Maquetado con Materializecss.
 2. Como programar en Typescript.
 3. DOM, clases y objetos.
+4. Constructor, getter, setter, y arrays.
 
 ## Tecnologias del lado del servidor
 

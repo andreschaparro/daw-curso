@@ -48,7 +48,7 @@ Ya sea que trabajemos con: variables, atributos, o argumentos de los metodos; de
 - _string_.
 - _boolean_.
 - _array_.
-- _object_. Nos permite utilizar una clase como tipo de dato entre otras cosas.
+- _object_. Nos permite crar un objeto a partir de una clase.
 
 Un metodo puede no recibir ningun argumento.
 
@@ -59,28 +59,38 @@ Las variables se definen con la palabra reservada _let_.
 Para crear un objeto a partir de una clase utilizamos la palabra reservada _new_.
 
 ```
-class MiClase {
+// Clase Main
+class Main {
+  // atributo publico inicializado
   x: number = 0;
+  // atributo publico sin inicializar
   y: number;
+  // atributo privado
   private _z: number = 0;
+  // metodo publico
   incrementar(n: number): void {
     this.x += n;
     console.log("incrementar: " + this.x);
+    //llamada al metodo privado
     this._privIncrementar(n);
     console.log("privIncrementar: " + this._z);
   }
+  // metodo privado
   private _privIncrementar(n: number): void {
     this._z += n;
   }
 }
 
+// Uso de DOM
 window.onload = () => {
-  let miObj: MiClase = new MiClase();
-  miObj.incrementar(3);
+  // Creacion de un objeto de la clase Main
+  let m: Main = new Main();
+  // Llamada la metodo publico
+  m.incrementar(3);
 };
 ```
 
-La palabra reservada _this_ puede hacer referencia a varias cosas. En este caso, nos permite acceder a los atributos de nuesto objeto. Mas adelante se vera en detalle.
+La palabra reservada _this_ puede hacer referencia a varias cosas. En este caso, nos permite acceder a los atributos de nuesto objeto. Mas adelante se vera con mas detalle.
 
 ## Material complementario
 
@@ -88,6 +98,16 @@ https://developer.mozilla.org/es/docs/Web/API/Window
 
 https://developer.mozilla.org/es/docs/Web/API/Document_Object_Model
 
-https://www.typescriptlang.org/docs/handbook/2/everyday-types.html
+https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#the-primitives-string-number-and-boolean
 
 https://www.typescriptlang.org/docs/handbook/2/classes.html
+
+https://www.typescriptlang.org/docs/handbook/2/classes.html#class-members
+
+https://www.typescriptlang.org/docs/handbook/2/classes.html#methods
+
+https://www.typescriptlang.org/docs/handbook/2/classes.html#public
+
+https://www.typescriptlang.org/docs/handbook/2/classes.html#private
+
+https://www.typescriptlang.org/docs/handbook/2/classes.html#this-types
