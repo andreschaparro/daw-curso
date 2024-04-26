@@ -10,6 +10,6 @@ Ver los comentarios en _index.html_ para entender como esta hecha la maquetacion
 
 ## Material complementario
 
-https://materializecss.com/
-
 Documentos que estan dentro de _/docs/html-css_.
+
+https://materializecss.com/
