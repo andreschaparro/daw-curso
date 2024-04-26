@@ -38,7 +38,7 @@ El lenguaje _typecript_ nos permite utilizar programacion orienada a objeto o _P
 class MiClase {}
 ```
 
-Una clase contendra atributos y metodos. Por defecto, todos son publicos. Pero, podrian definirse como privados para que solo se puedan acceder desde dentro de la clase.
+Una clase contendra atributos y metodos. Por defecto, todos son publicos. Pero, podrian definirse como privados para que solo se puedan acceder desde dentro de la clase. A todo lo que sea privado, se le suele anteponer un \_ en su nombre como convencion.
 
 Los atributos se pueden inicializar directamente.
 
@@ -62,15 +62,15 @@ Para crear un objeto a partir de una clase utilizamos la palabra reservada _new_
 class MiClase {
   x: number = 0;
   y: number;
-  private z: number = 0;
+  private _z: number = 0;
   incrementar(n: number): void {
     this.x += n;
     console.log("incrementar: " + this.x);
-    this.privIncrementar(n);
+    this._privIncrementar(n);
     console.log("privIncrementar: " + this.z);
   }
-  private privIncrementar(n: number): void {
-    this.z += n;
+  private _privIncrementar(n: number): void {
+    this._z += n;
   }
 }
 
