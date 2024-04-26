@@ -3,7 +3,9 @@
 ## Tecnologias del lado del cliente
 
 Los ejecicios del 1 al 15 corresponden a:
-- Maquetacion con Materializecss.
+
+- Maquetado con Materializecss.
+- Typestript.
 - DOM.
 - Typescript.
 - Protocolo HTTP.
