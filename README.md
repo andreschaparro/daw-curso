@@ -7,10 +7,10 @@ Los ejecicios del 1 al 15 corresponden a:
 - DOM.
 - Typescript.
 - Protocolo HTTP.
-- Metodos GET.
+- Metodo GET.
 - AJAX.
 - Promises.
 - jSON.
-- Post.
+- Metodo POST.
 
 ## Desarrollo back-end
