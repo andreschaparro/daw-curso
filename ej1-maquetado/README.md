@@ -1,17 +1,15 @@
-# Ejemplo 1: Maquetado con materializecss
+# Ejemplo 1: Maquetado
 
 ## Introduccion
 
-Tecnologias del lado del cliente que utilizaremos: _HTML5_, _CCS3: Materializecss_, y _JS: Typescript_.
+En el ejemplo, armaremos la estructura y le daremos estilos a la _web app_ que utilizaremos durante toda la etapa inicial de este curso.
 
-Como _framework front-end_ utlizaremos:
+Este proceso se llama maquetado y para el mismo utilizaremos _HTML5_ y el _framwork Materializecss_.
+
+Ver los comentarios en _index.html_ para entender como esta hecha la maquetacion y como se cargan los archivos _materialize.min.css_ y _materialize.min.js_ para poder utlizar el _framework_.
+
+## Material complementario
 
 https://materializecss.com/
 
-Pero otra opcion, podria ser _Bootstrap_.
-
-En este primer ejemplo, crearemos los archivos que tendra el _servidor_.
-
-Asi, cuando el _browser_ le haga un _request_ al _servidor_, este le deberia devolver estos archivos para que pueda reconstruir la _web app_.
-
-**NOTA: En docs hay mucha informacion sobre maquetado en la carpeta html-css**
+Documentos que estan dentro de _/docs/html-css_.
