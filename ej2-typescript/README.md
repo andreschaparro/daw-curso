@@ -110,3 +110,7 @@ En la terminal donde se ejecuto el servidor estatico se podra ver como llegan lo
 https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/What_is_a_web_server
 
 https://developer.mozilla.org/en-US/docs/Web/HTTP
+
+https://www.typescriptlang.org/docs/handbook/2/basic-types.html#tsc-the-typescript-compiler
+
+https://www.npmjs.com/package/http-server

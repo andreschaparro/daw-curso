@@ -54,7 +54,7 @@ Un metodo puede no recibir ningun argumento.
 
 El valor retornado por un metodo puede ser _void_.
 
-Las variables se definen con la palabra reservada _let_.
+Las variables se definen con la palabra reservada _let_ y son validas dentro de las llaves donde fue declarada.
 
 Para crear un objeto a partir de una clase utilizamos la palabra reservada _new_.
 

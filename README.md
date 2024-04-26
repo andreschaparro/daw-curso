@@ -8,6 +8,7 @@ Los ejecicios del 1 al 15 corresponden a:
 2. Como programar en Typescript.
 3. DOM, clases y objetos.
 4. Constructor, getter, setter, y arrays.
+5. Necesidad de un framework.
 
 ## Tecnologias del lado del servidor
 
