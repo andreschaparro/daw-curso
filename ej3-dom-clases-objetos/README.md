@@ -67,7 +67,7 @@ class MiClase {
     this.x += n;
     console.log("incrementar: " + this.x);
     this._privIncrementar(n);
-    console.log("privIncrementar: " + this.z);
+    console.log("privIncrementar: " + this._z);
   }
   private _privIncrementar(n: number): void {
     this._z += n;
