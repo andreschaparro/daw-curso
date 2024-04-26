@@ -1,4 +1,4 @@
-# Ejemplo 1: Maquetacion con Materializecss
+# Ejemplo 1: Maquetado con Materializecss
 
 ## Introduccion
 

@@ -99,11 +99,11 @@ Ahora vamos a poder ver el proceso de armado de la _web app_:
 
 Asi, es como interactuan un servidor y un cliente, que en este caso es un navegador, cuando se tiene una _web app estatica_.
 
-![web app estatica](/ej2-typestript/web_app_estatica.png)
+![web app estatica](/ej2-typescript/web_app_estatica.png)
 
 En la terminal donde se ejecuto el servidor estatico se podra ver como llegan los _request_ desde el navegador.
 
-![servidor estatico](/ej2-typestript/servidor_estatico.png)
+![servidor estatico](/ej2-typescript/servidor_estatico.png)
 
 ## Material complementario
 

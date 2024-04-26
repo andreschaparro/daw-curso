@@ -4,16 +4,9 @@
 
 Los ejecicios del 1 al 15 corresponden a:
 
-- Maquetado con Materializecss.
-- Typestript.
-- DOM.
-- Typescript.
-- Protocolo HTTP.
-- Metodo GET.
-- AJAX.
-- Promises.
-- jSON.
-- Metodo POST.
+1. Maquetado con Materializecss.
+2. Como programar en Typescript.
+3. DOM, clases y objetos.
 
 ## Tecnologias del lado del servidor
 
