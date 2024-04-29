@@ -16,6 +16,7 @@ Listado de ejercicios:
 10. Framework metodo requestGET, AJAX.
 11. Framework metodo requestGETProm, Promises.
 12. Proceso de deserializacion de un archivo jSON.
+13. Completar el maquetado utilizando la propiedad innerHTML.
 
 ## Tecnologias del lado del servidor
 
