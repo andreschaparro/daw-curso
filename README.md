@@ -14,6 +14,7 @@ Listado de ejercicios:
 8. Interfaces.
 9. Framework metodo getElementByEvent.
 10. Framework metodo requestGET, AJAX.
+11. Framework metodo requestGETProm, Promises.
 
 ## Tecnologias del lado del servidor
 
