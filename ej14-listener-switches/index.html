@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Smart Home</title>
+    <!--Import materialize.css-->
+    <link rel="stylesheet" href="css/materialize.min.css">
+</head>
+
+<body>
+    <!--Header del sitio utlizando el componente Navbar.-->
+    <nav class="light-blue darken-4">
+        <div class="nav-wrappers">
+            <!--Titulo-->
+            <a href="#" class="brand-logo right">Smart Home</a>
+            <!--Lista de botones de hipervinculo-->
+            <ul id="nav-mobile" class="left hide-on-med-and-down">
+                <li class="active"><a href="#">Dispositivos</a></li>
+                <li><a href="#">Configuracion</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!--Uso de collections para actuadores on/off.-->
+    <div class="container">
+        <!--Agregado de un boton para probar el metodo getElementById de nuestro framework.-->
+        <div class="row">
+            <p></p>
+            <a id="boton" class="waves-effect waves-light btn"></a>
+        </div>
+        <div class="row">
+            <h4>Dispositivos</h4>
+        </div>
+        <div class="row">
+            <!--Las "collection" son como listas de tarjetas de presentacion.-->
+            <!--Se muestra una tarjeta abajo de la otra.-->
+            <!--El id "deviceList" se agrega para poder encontrar la "collection" y completar su contenido desde el codigo typescript.-->
+            <ul id="devicesList" class="collection"></ul>
+        </div>
+    </div>
+    <!--Footer del sitio utlizando el componente Footer.-->
+    <footer class="page-footer light-blue darken-4">
+        <div class="container">
+            <!--Un grid se conforma con rows y cols y conviene encapsularlo dentro de un container.-->
+            <!--Tiene 12 columnas sin importar el tamaño del browser y podra tener varias filas.-->
+            <div class="row">
+                <!--col sxx indica cuantas columnas dentro de la fila ocupara el objeto al estar en una pantalla pequeña como el celular.-->
+                <!--col lXX indica cuantas columnas dentro de la fila ocupara el objeto al estar en una pantalla grande como la de una PC.-->
+                <!--Asi, un objeto con "col s12" provoca deba ocupar toda la fila del grid cuando estemos en una pantalla chica.-->
+                <!--Por lo que, si hay otro objeto dentro de la misma fila, el mismo debara mostrarse como si estuviese una fila mas abajo..-->
+                <!--Lo anterior se conoce como colapsar.-->
+                <!--En cambio, un objeto con "col l6" y otro con "col l4" ocuparan 10 de las 12 columnas de la fila.-->
+                <!--Y de esta forma, no colapsaran al estar en una pantalla grande.-->
+                <div class="col l6 s12">
+                    <h5 class="white-text">DAW-curso</h5>
+                    <p class="grey-text text-lighten-4">Ing. Andres Chaparro</p>
+                </div>
+                <!--Un "offset-l2" indica que debe despazarse el objeto 2 columnas hacia la derecha dentro de la misma fila.-->
+                <!--Y como consecuencia, tendremos un objeto que ocupara las primeras 6 columnas.-->
+                <!--luego habra 2 columnas vacias.-->
+                <!--Y finalmente el segundo objeto ocupara las 4 columnas restantes, completando las 12 cuando estamos en una pantalla grande.-->
+                <div class="col l4 offset-l2 s12">
+                    <h5 class="white-text">Web App</h5>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                2024
+                <!--<a class="grey-text text-lighten-4 right" href="#!">More Links</a>-->
+            </div>
+        </div>
+    </footer>
+    <!--JavaScript at end of body for optimized loading-->
+    <script src="js/materialize.min.js"></script>
+    <!--Carga del script resultante del proceso de transpilacion de nuestro main.ts-->
+    <script src="js/main.js"></script>
+    <!--Carga del script resultante del proceso de transpilacion de nuestro framework-->
+    <script src="js/MyFramework.js"></script>
+</body>
+
+</html>

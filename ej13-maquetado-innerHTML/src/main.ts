@@ -38,6 +38,7 @@ class ViewMainPage {
             "<div class='switch secondary-content'>" +
             "<label>" +
             "Off" +
+            // Cada switch tendra un id distinto
             "<input id='dev_" +
             list[i].id +
             "' " +
@@ -62,6 +63,7 @@ class ViewMainPage {
             "<div class='switch secondary-content'>" +
             "<label>" +
             "Off" +
+            // Cada switch tendra un id distinto
             "<input id='dev_" +
             list[i].id +
             "' " +

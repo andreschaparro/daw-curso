@@ -17,6 +17,7 @@ Listado de ejercicios:
 11. Framework metodo requestGETProm, Promises.
 12. Proceso de deserializacion de un archivo jSON.
 13. Completar el maquetado utilizando la propiedad innerHTML.
+14. Utilizar un mismo listener para todos los switches.
 
 ## Tecnologias del lado del servidor
 
