@@ -9,7 +9,8 @@ Listado de ejercicios:
 3. DOM, clases y objetos.
 4. Constructor, getter, setter, y arrays.
 5. Necesidad de un framework.
-6. Metodos Map y Join de un Array, y template-literal-types
+6. Metodos Map y Join de un Array, y template-literal-types.
+7. Listener y this.
 
 ## Tecnologias del lado del servidor
 
