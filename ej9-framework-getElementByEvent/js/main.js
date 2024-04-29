@@ -1,24 +1,18 @@
+// Clase Main que utiliza la interfaz EventListenerObject
 var Main = /** @class */ (function () {
     function Main() {
-        /**
-         * Un atributo puede inicializarse de igual forma para todos los objetos de esta
-         * forma sin necesidad de crear un constructor para hacerlo.
-         */
         this.counter = 0;
     }
     Main.prototype.handleEvent = function (evt) {
         this.counter++;
-        /**
-         * Hacemos uso del framework para econtrar el boton
-         * utilizando el Event.
-         */
+        // Buscamos el boton que produjo el evento onClick utilizando nuestro framework
         var btn = this.myf.getElementByEvent(evt);
-        btn.textContent = "click:" + this.counter;
+        // Mostramos el numero de veces que se le hizo click en el texto del boton
+        btn.textContent = "Clicks: " + this.counter;
     };
     Main.prototype.main = function () {
         this.myf = new MyFramework();
         var b = this.myf.getElementById("boton");
-        console.log(b);
         b.textContent = "Haceme Click";
         b.addEventListener("click", this);
     };
