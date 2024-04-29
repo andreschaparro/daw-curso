@@ -15,6 +15,7 @@ Listado de ejercicios:
 9. Framework metodo getElementByEvent.
 10. Framework metodo requestGET, AJAX.
 11. Framework metodo requestGETProm, Promises.
+12. Proceso de deserializacion de un archivo jSON.
 
 ## Tecnologias del lado del servidor
 
