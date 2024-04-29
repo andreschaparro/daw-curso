@@ -1,23 +1,15 @@
+// Clase User
 var User = /** @class */ (function () {
-    /**
-     * Constructor
-     */
-    function User(id, mail, name) {
+    function User(id, name, mail) {
         this._id = id;
         this._name = name;
         this._mail = mail;
         this._isLogged = false;
     }
     Object.defineProperty(User.prototype, "id", {
-        /**
-         * Metodos getter
-         */
         get: function () {
             return this._id;
         },
-        /**
-         * Metodos setter
-         */
         set: function (id) {
             this._id = id;
         },
@@ -54,13 +46,10 @@ var User = /** @class */ (function () {
         enumerable: false,
         configurable: true
     });
-    /**
-     * Otros metodos
-     */
     User.prototype.printInfo = function () {
         console.log("Nombre: " +
             this.name +
-            " email: " +
+            " mail: " +
             this.mail +
             " logged: " +
             this.isLogged);

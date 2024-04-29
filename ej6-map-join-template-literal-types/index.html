@@ -11,37 +11,47 @@
 </head>
 
 <body>
-    <!--Header del sitio utlizando el componente Navbar-->
+    <!--Header del sitio utlizando el componente Navbar.-->
     <nav class="light-blue darken-4">
         <div class="nav-wrappers">
+            <!--Titulo-->
             <a href="#" class="brand-logo right">Smart Home</a>
+            <!--Lista de botones de hipervinculo-->
             <ul id="nav-mobile" class="left hide-on-med-and-down">
-                <!--Hipervinculos a otras pantallas-->
                 <li class="active"><a href="#">Dispositivos</a></li>
                 <li><a href="#">Configuracion</a></li>
             </ul>
         </div>
     </nav>
-    <!--Agregado del boton-->
+    <!--Uso de collections para actuadores on/off.-->
     <div class="container">
-        <a id="boton" class="waves-effect waves-light btn"></a>
-    </div>
-    <!--Agregado del ul-->
-    <div class="container">
-        <ul id="listaUsuarios"></ul>
-    </div>
-    <!--Uso de collections para actuadores on/off-->
-    <div class="container">
-        <div class="row s12">
+        <!--Agregado de un boton para probar el metodo getElementById de nuestro framework.-->
+        <div class="row">
+            <p></p>
+            <a id="boton" class="waves-effect waves-light btn"></a>
+        </div>
+        <!--Agregado de una lista para probar el metodo mostrarUsers.-->
+        <div class="row">
+            <p></p>
+            <ul id="listaUsuarios"></ul>
+        </div>
+        <div class="row">
             <h4>Dispositivos</h4>
         </div>
-        <div class="row s12">
+        <div class="row">
+            <!--Las "collection" son como listas de tarjetas de presentacion.-->
+            <!--Se muestra una tarjeta abajo de la otra.-->
             <ul class="collection">
+                <!--Cada "collection-item" avatar es una tarjeta.-->
                 <li class="collection-item avatar">
+                    <!--Imagen para identificar graficamente cual es el contenido de la tarjeta.-->
                     <img src="images/lightbulb.png" alt="" class="circle">
+                    <!--Nombre que acompaña a la imagen para identificar en concreto el contenido de la tarjeta.-->
                     <span class="title">Lampara 1</span>
+                    <!--Un texto adicional que puede tener varios usos a nivel informacion de la tarjeta.-->
                     <p>Luz living</p>
-                    <!--Uso de collections para actuadores on/off-->
+                    <!--Elemento ubicado a la derecha de la tarjeta.-->
+                    <!--Nos puede servir para agregar un control como en este caso o mostrar algun valor.-->
                     <div class="switch secondary-content">
                         <label>
                             Off
@@ -119,31 +129,29 @@
             </ul>
         </div>
     </div>
-    <!--Footer del sitio utlizando el componente Footer-->
+    <!--Footer del sitio utlizando el componente Footer.-->
     <footer class="page-footer light-blue darken-4">
         <div class="container">
-            <!--Un grid tiene 12 columnas sin importar el tamaño del browser.-->
+            <!--Un grid se conforma con rows y cols y conviene encapsularlo dentro de un container.-->
+            <!--Tiene 12 columnas sin importar el tamaño del browser y podra tener varias filas.-->
             <div class="row">
-                <!--sxx indica cuanto espacio ocupa la columna con xx de 1 a 12 en pantallas pequeñas como el celular.-->
-                <!--lXX indica cuanto espacio ocupa la columna en una pantalla grande como la de una PC.-->
-                <!--Asi, s12 provoca que una columna deba ocupar todo el ancho una pantalla chica. -->
-                <!--por lo que, la siguiente columna debara bajar de linea forzadamente.-->
-                <!--En cambio, una columna mide l6 y el otro mide l4, da 10 de ancho, que es menor que 12.-->
-                <!--por lo que, ambas columnas entran en una linea.-->
+                <!--col sxx indica cuantas columnas dentro de la fila ocupara el objeto al estar en una pantalla pequeña como el celular.-->
+                <!--col lXX indica cuantas columnas dentro de la fila ocupara el objeto al estar en una pantalla grande como la de una PC.-->
+                <!--Asi, un objeto con "col s12" provoca deba ocupar toda la fila del grid cuando estemos en una pantalla chica.-->
+                <!--Por lo que, si hay otro objeto dentro de la misma fila, el mismo debara mostrarse como si estuviese una fila mas abajo..-->
+                <!--Lo anterior se conoce como colapsar.-->
+                <!--En cambio, un objeto con "col l6" y otro con "col l4" ocuparan 10 de las 12 columnas de la fila.-->
+                <!--Y de esta forma, no colapsaran al estar en una pantalla grande.-->
                 <div class="col l6 s12">
-                    <h5 class="white-text">FIUBA</h5>
-                    <p class="grey-text text-lighten-4">Especializacion IoT - Gestion de Datos y Aplicaciones</p>
+                    <h5 class="white-text">DAW-curso</h5>
+                    <p class="grey-text text-lighten-4">Ing. Andres Chaparro</p>
                 </div>
-                <!--Un offset de l2 indica que debe despazarse el contenido 2 columnas hacia la derecha.-->
-                <!--Por lo que el contenido de ancho 4 debera situarse en la columna 3 en una pantalla grande.-->
+                <!--Un "offset-l2" indica que debe despazarse el objeto 2 columnas hacia la derecha dentro de la misma fila.-->
+                <!--Y como consecuencia, tendremos un objeto que ocupara las primeras 6 columnas.-->
+                <!--luego habra 2 columnas vacias.-->
+                <!--Y finalmente el segundo objeto ocupara las 4 columnas restantes, completando las 12 cuando estamos en una pantalla grande.-->
                 <div class="col l4 offset-l2 s12">
-                    <h5 class="white-text">Desarrollo de Aplicacion Web</h5>
-                    <ul>
-                        <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
-                        <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
-                        <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
-                        <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
-                    </ul>
+                    <h5 class="white-text">Web App</h5>
                 </div>
             </div>
         </div>
@@ -156,9 +164,12 @@
     </footer>
     <!--JavaScript at end of body for optimized loading-->
     <script src="js/materialize.min.js"></script>
-    <script src="js/User.js"></script>
+    <!--Carga del script resultante del proceso de transpilacion de nuestro main.ts-->
     <script src="js/main.js"></script>
+    <!--Carga del script resultante del proceso de transpilacion de nuestro framework-->
     <script src="js/MyFramework.js"></script>
+    <!--Carga del script resultante del proceso de transpilacion de nuestro User.ts-->
+    <script src="js/User.js"></script>
 </body>
 
 </html>

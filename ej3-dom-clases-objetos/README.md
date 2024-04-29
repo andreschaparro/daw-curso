@@ -90,7 +90,7 @@ window.onload = () => {
 };
 ```
 
-La palabra reservada _this_ puede hacer referencia a varias cosas. En este caso, nos permite acceder a los atributos de nuesto objeto. Mas adelante se vera con mas detalle.
+La palabra reservada _this_ puede hacer referencia a varias cosas. En este caso, hace referencia al objeto y nos permite acceder a sus atributos.
 
 ## Material complementario
 
