@@ -13,6 +13,7 @@ Listado de ejercicios:
 7. Listener y this.
 8. Interfaces.
 9. Framework metodo getElementByEvent.
+10. Framework metodo requestGET, AJAX.
 
 ## Tecnologias del lado del servidor
 

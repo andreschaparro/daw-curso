@@ -2,7 +2,7 @@
 
 ## Introduccion
 
-Le agregamos un metodo al framework para que cuando se produzca un evento, podamos identificar que componente de la pagina lo produzco.
+Le agregamos un metodo al _framework_ para que cuando se produzca un evento, podamos identificar que componente de la pagina lo produzco.
 
 ```
 // Clase MyFramework
