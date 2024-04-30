@@ -2,9 +2,9 @@
 
 ## Introduccion
 
-En el ejemplo 2, vimos como se resolvia el armado de la _web app estatica_. Luego, en el ejemplo 10 le agregamos al _framework_ la capacidad de hacer un _request_ de forma manual y poder resolver el _response_ mediante un metodo de nuestro programa.
+En el ejemplo 2, vimos como se resolvia el armado de la _web app estatica_. Luego, en el ejemplo 10 le agregamos al _framework_ la capacidad de hacer un _request_ de forma manual y poder resolver el _response_ mediante un codigo escrito en nuestro programa.
 
-Ahora, vamos a hacer que nuestro _framework_ pueda realizar otro tipo de _request_ utilizando el metodo _POST_. Este metodo, se utiliza para enviar informacion datos al servidor que deben ser precesados.
+Ahora, vamos a hacer que nuestro _framework_ pueda realizar otro tipo de _request_ utilizando el metodo _POST_. Este metodo se utiliza para enviar datos al servidor, donde los mismos deben ser precesados.
 
 ## Creacion de una interfaz para procesar el response del servidor
 

@@ -6,11 +6,11 @@ En el ejemplo 2, vimos como se resolvia el armado de la _web app estatica_.
 
 Ahora, vamos a necesitar hacer otro _request_ para pedir el archivo _devices.txt_. Pero este _request_, no se disparara de forma automatica durante el proceso de reconstruccion de la _web app_ en el navegador. Necesitaremos hacerlo de forma explicita desde nuestro programa.
 
-El ejemplo, lo vamos a resolver pensado que nuestro _framework_ debe proveernos la capacidad de hacer un _request_ de forma manual y poder resolver el _response_ mediante un codigo que escribamos en nuestro programa.
+El ejemplo, lo vamos a resolver pensado que nuestro _framework_ debe proveernos la capacidad de hacer un _request_ de forma manual y poder resolver el _response_ mediante un codigo escrito en nuestro programa.
 
 ## Creacion de una interfaz para procesar el response del servidor
 
-El contenido que nos puede devolver el servidor es variado. En este caso es un archivo de texto, bien podria un archivo en formato _jSON_. Lo que cambiaria la forma de procesarlo en el programa.
+El contenido que nos puede devolver el servidor es variado. En este caso es un archivo de texto, pero bien podria un archivo en formato _jSON_. Lo que cambiaria la forma de procesarlo en el programa.
 
 Por ello, necesitamos crear una interfaz que obligue a la clase que la implementa el _framework_, a definir un metodo que reciba el codigo de _status_ y procesar el archivo. Asi, la implementacion del metodo le permitira al usuario del _framework_ procesarolo como desee.
 

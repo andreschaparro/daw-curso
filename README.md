@@ -28,6 +28,6 @@ Listado de ejercicios:
 17. Manejo de archivos jSON con Express.
 18. Resolucion de un request con el metodo GET con Express.
 19. Resolucion de un request con el metodo POST con Express.
-20. Servidor dinamico con Express.
+20. Servidor dinamico.
 
 ## Microservicios con Docker
