@@ -126,7 +126,6 @@ window.onload = () => {
   let m: Main = new Main();
   m.main();
 };
-
 ```
 
 Se recomienda repasar este ejercicio en detalle. Dado que integra todos los temas vistos hasta el momento.

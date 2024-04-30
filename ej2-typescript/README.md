@@ -111,6 +111,8 @@ https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/Wh
 
 https://developer.mozilla.org/en-US/docs/Web/HTTP
 
+https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/GET
+
 https://www.typescriptlang.org/docs/handbook/2/basic-types.html#tsc-the-typescript-compiler
 
 https://www.npmjs.com/package/http-server

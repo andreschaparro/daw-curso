@@ -1,4 +1,4 @@
-# Curso desarrollo de aplicaciones web nivel 1
+# Curso desarrollo de aplicaciones web
 
 ## Tecnologias del lado del cliente
 
@@ -18,7 +18,16 @@ Listado de ejercicios:
 12. Proceso de deserializacion de un archivo jSON.
 13. Completar el maquetado utilizando la propiedad innerHTML.
 14. Utilizar un mismo listener para todos los switches.
+15. Framework metodo requestPOST, AJAX.
 
 ## Tecnologias del lado del servidor
 
-## Microservicios Docker
+Listado de ejercicios:
+
+16. Como programar con Express en NodeJS.
+17. Manejo de archivos jSON con Express.
+18. Resolucion de un request con el metodo GET con Express.
+19. Resolucion de un request con el metodo POST con Express.
+20. Servidor dinamico con Express.
+
+## Microservicios con Docker

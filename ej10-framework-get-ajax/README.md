@@ -28,7 +28,7 @@ Hay que crear un metodo en la clase del _framework_ para poder hacer el _request
 - La _url_ de donde se obtendra el archivo.
 - La interfaz, creada anteriormente e implementada por la clase que utiliza el framewrok, de donde obtendremos el metodo para procesar el archivo.
 
-Internamente, el metodo utilizara AJAX para resolver el _request_ y esperar el _response_ de forma asincronica. Aqui vemos, como el _framework_ nos vuelve a abstraer de otra problematica.
+Internamente, el metodo utilizara AJAX para resolver el _request_ y esperar el _response_ de forma asincronica. Aqui vemos, como el _framework_ nos vuelve a abstraer de otras problematicas.
 
 ```
 // Interface que debe implementar la clase que utilice el framework y que la obliga a definir el metodo handleGETResponse para procesar el archivo
